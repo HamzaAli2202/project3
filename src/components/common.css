@@ -1,0 +1,33 @@
+.main {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightcoral;
+    border: 5px inset brown;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.sub {
+    margin: 5px;
+    padding: 10px;
+    border: 3px outset magenta;
+    color: brown;
+    background-color: gold;
+    border-radius: 20px;
+    width: 350px;
+}
+
+.sub:hover {
+    background-color: rgb(234, 202, 124);
+    border: 3px inset darkred;
+}
+
+p {
+    color: black;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: bold;
+}
